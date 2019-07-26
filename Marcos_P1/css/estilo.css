@@ -1,0 +1,106 @@
+@keyframes girar { 100% { -webkit-transform: rotate(360deg); } }
+
+body{
+	/*background-color: rgb(50,150,150);
+	background-color: #722349;
+	*/
+
+
+
+}
+.container{
+	min-height: 600px;
+	
+	
+}
+
+.container,
+.topo{
+   -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+}
+.container{
+	background-color: #00dcff08;
+
+}
+
+.topo{
+	height: 101px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background:-webkit-linear-gradient(left,#00ffc4,#00c4ff,#6767ff);
+	/*
+	background-color: #00c4ff;*/
+}
+
+#img{
+ max-width: 100px;
+ max-height: 100px;
+ float: left;
+
+}
+#img:hover{
+ -webkit-animation:girar 4s linear infinite;
+ -moz-animation:girar 4s linear infinite;
+ animation:girar 4s linear infinite;
+ cursor: pointer;
+}
+
+#nome{
+	margin-left: 10px;
+	float: left;
+	line-height: 100px;
+}
+h3:hover{
+	font-size: 27px;
+	transition: all 0.5s linear;
+
+}
+#logo{
+	width: 50%;
+	float: left;
+	margin-left: 5px;
+}
+.dropdown{
+	float: right;
+	margin-right: 10px;
+}
+
+#menu{
+	
+}
+#listamenu{
+
+}
+#btn-menu{
+	margin-top: 25px;
+	background-color: white;
+
+}
+.blockquote{
+
+}
+#banner:hover{
+	transition: all 0.5s linear;
+	cursor: pointer;
+	-webkit-transform: scale(1.05);
+  	-moz-transform: scale(1.05);
+  	-o-transform: scale(1.05);
+  	-ms-transform: scale(1.05);
+ 	 transform: scale(1.05);	
+ 	 box-shadow: 1px 1px 10px ;
+
+
+}
+@media only screen and (max-width: 565px){
+	.topo {
+		height: 200px;
+	}
+	h3:hover{
+	font-size: 24px;
+	transition: all 0.5s linear;
+
+}
+
+}
